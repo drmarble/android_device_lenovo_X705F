@@ -25,7 +25,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),X605F)
+ifeq ($(TARGET_DEVICE),X705F)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
@@ -59,4 +59,4 @@ ifdef CREATE_SYMLINKS
      $(eval ALL_DEFAULT_INSTALLED_MODULES += $(full_link_name)))
 endif
 
-endif #X605F
+endif #X705F

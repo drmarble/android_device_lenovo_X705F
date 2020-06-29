@@ -14,8 +14,11 @@
 # limitations under the License.
 #
 
+# Allow building otatools
+TARGET_FORCE_OTA_PACKAGE := true
+
 # Get vendor-specific stuff
-$(call inherit-product, vendor/lenovo/X605F/X605F-vendor.mk)
+$(call inherit-product, vendor/lenovo/X705F/X705F-vendor.mk)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
@@ -253,6 +256,13 @@ CREATE_SYMLINKS += \
 
 # System Properties
 -include $(LOCAL_PATH)/system_prop.mk
+
+# Treble
+PRODUCT_USE_VNDK_OVERRIDE := true
+
+#PRODUCT_PACKAGES += \
+#    vndk_package
+#    vndk-sp
 
 # Whitelist
 PRODUCT_COPY_FILES += \

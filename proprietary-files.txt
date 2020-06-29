@@ -2789,7 +2789,7 @@ vendor/lib/libwfdmodulehdcpsession.so
 vendor/lib64/libwfdhdcpcp.so
 
 # WiFi
-bin/iwpriv
+bin/iw
 vendor/bin/cnss-daemon
 vendor/bin/cnss_diag
 
@@ -2883,7 +2883,6 @@ vendor/etc/countrycode/HR_config.xml
 vendor/etc/countrycode/HU_config.xml
 vendor/etc/countrycode/ID_config.xml
 vendor/etc/countrycode/IL_config.xml
-vendor/etc/countrycode/IND_config.xml
 vendor/etc/countrycode/IN_config.xml
 vendor/etc/countrycode/IS_config.xml
 vendor/etc/countrycode/ITD_config.xml
@@ -2898,7 +2897,6 @@ vendor/etc/countrycode/LT_config.xml
 vendor/etc/countrycode/LV_config.xml
 vendor/etc/countrycode/MA_config.xml
 vendor/etc/countrycode/MU_config.xml
-vendor/etc/countrycode/MXD_config.xml
 vendor/etc/countrycode/MX_config.xml
 vendor/etc/countrycode/MY_config.xml
 vendor/etc/countrycode/MZ_config.xml

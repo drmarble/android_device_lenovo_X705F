@@ -355,7 +355,7 @@
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
 
     <!-- Disable lockscreen rotation by default -->
-    <bool name="config_enableLockScreenRotation">false</bool>
+    <bool name="config_enableLockScreenRotation">true</bool>
 
     <!-- Boolean indicating if current platform supports BLE peripheral mode -->
     <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>

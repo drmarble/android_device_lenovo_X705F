@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=X605F
+DEVICE=X705F
 VENDOR=lenovo
 
 # Load extract_utils and do some sanity checks

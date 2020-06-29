@@ -1,3 +1,6 @@
 [
-
-]	
+  {
+    "repository": "android_kernel_lenovo_X705F",
+    "target_path": "kernel/lenovo/X705F"
+  }
+]

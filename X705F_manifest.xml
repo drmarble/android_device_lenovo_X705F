@@ -1,5 +1,5 @@
-<!-- extra HALs from stock X605F syste/etc/vintf/manifest.xml -->
-<manifest version="1.0" type="device" target-level="2">   
+<!-- extra HALs from stock X705F syste/etc/vintf/manifest.xml -->
+<manifest version="1.0" type="framework" target-level="2">   
 <hal format="hidl">
         <name>vendor.qti.hardware.radio.atcmdfwd</name>
         <transport>hwbinder</transport>

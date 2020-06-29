@@ -65,19 +65,19 @@ void property_override_dual(const char system_prop[], const char vendor_prop[], 
 
 static void set_fingerprint()
 {
-    const char* fingerprint = "Lenovo/LenovoTB-X605F/X605F:9/PKQ1.190319.001/S210126_191029_ROW:user/release-keys";
+    const char* fingerprint = "Lenovo/LenovoTB-X705F/X705F:9/PKQ1.190319.001/S210126_191029_ROW:user/release-keys";
     std::string baseband = GetProperty(PROP_BOOT_BASEBAND, "");
     if (baseband == "apq") {
-        property_override("ro.build.description","tab5_m10_row_wifi-user 9 PKQ1.190319.001 TB-X605F_U release-keys");
+        property_override("ro.build.description","tab5_m10_row_wifi-user 9 PKQ1.190319.001 TB-X705F_U release-keys");
         property_override("ro.build.product","tab5_m10_row_wifi");
-        property_override("ro.product.device","X605F");
+        property_override("ro.product.device","X705F");
         property_override("ro.bootimage.build.fingerprint",fingerprint);
         property_override("ro.build.fingerprint",          fingerprint);
         property_override("ro.vendor.build.fingerprint",   fingerprint);
-        property_override("ro.product.model","Lenovo TB-X605F");
-	property_override("ro.product.ota.model","Lenovo TB-X605F_ROW");
+        property_override("ro.product.model","Lenovo TB-X705F");
+	property_override("ro.product.ota.model","Lenovo TB-X705F_ROW");
 
-        property_override_dual("ro.product.name","ro.vendor.product.name","LenovoTB-X605F");
+        property_override_dual("ro.product.name","ro.vendor.product.name","LenovoTB-X705F");
 
     } else if (baseband == "msm") {
         // PLACEHOLDER - X605L
@@ -207,7 +207,7 @@ static void set_psn_and_gsn()
  compile with TARGET_INIT_VENDOR_LIB for it to be compiled and linked.
 
  This code is simplified version of changes to property_service.cpp made
- by Lenovo from the X605F opensource (released June 2020).
+ by Lenovo from the X705F opensource (released June 2020).
 
  It sets properties from persist storage (/mnt/vendor/persist/nv), including
  device serialno, and bluetooth & wifi MAC addresses.  

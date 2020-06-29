@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_X605F.mk
+    $(LOCAL_DIR)/lineage_X705F.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_X605F-userdebug \
-    lineage_X605F-user \
-    lineage_X605F-eng
+    lineage_X705F-userdebug \
+    lineage_X705F-user \
+    lineage_X705F-eng
